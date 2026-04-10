@@ -1,0 +1,750 @@
+{
+  "id": "Criterion v2.4.3",
+  "passed": 141,
+  "failed": 0,
+  "errored": 0,
+  "skipped": 0,
+  "test_suites": [
+    {
+      "name": "student_tests",
+      "passed": 56,
+      "failed": 0,
+      "errored": 0,
+      "skipped": 0,
+      "tests": [
+        {
+          "name": "wildcard_suffix_whole_file",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_suffix_single_line",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_suffix_one_word_file",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_suffix_no_space_after_punct",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_suffix_no_match",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_suffix_multiple_occurrences",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_suffix_in_range",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_suffix_exact_word",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_suffix_end_of_file",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_suffix_before_punctuation",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_prefix_whole_file",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_prefix_single_line",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_prefix_one_word_file",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_prefix_no_space_after_punct",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_prefix_no_match",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_prefix_multiple_occurrences",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_prefix_in_range",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_prefix_exact_word",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_prefix_before_punctuation",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_replace_whole_file",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_replace_start_of_line",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_replace_single_line",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_replace_shorter_text",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_replace_one_word_file",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_replace_no_match",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_replace_longer_text",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_replace_in_range_only",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_replace_end_beyond_file",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case28",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case27",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case26",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case25",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case24",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case23",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case22",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case21",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case20",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case19",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case18",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case17",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case16",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case15",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case14",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case13",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case12",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case11",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case10",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case09",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case08",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case07",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case06",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case05",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case04",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case03",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case02",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "doc_case01",
+          "assertions": 1,
+          "status": "PASSED"
+        }
+      ]
+    },
+    {
+      "name": "base_valgrind",
+      "passed": 34,
+      "failed": 0,
+      "errored": 0,
+      "skipped": 0,
+      "tests": [
+        {
+          "name": "wildcard_search24",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search23",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search22",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search21",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search20",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search19",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search18",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search17",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search16",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search15",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search14",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search13",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search12",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search11",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search10",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search09",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search08",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search07",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search06",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search05",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search04",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search03",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search02",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search01",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search10",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search09",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search08",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search07",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search06",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search05",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search04",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search03",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search02",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search01",
+          "assertions": 1,
+          "status": "PASSED"
+        }
+      ]
+    },
+    {
+      "name": "base_output",
+      "passed": 34,
+      "failed": 0,
+      "errored": 0,
+      "skipped": 0,
+      "tests": [
+        {
+          "name": "wildcard_search24",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search23",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search22",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search21",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search20",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search19",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search18",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search17",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search16",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search15",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search14",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search13",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search12",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search11",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search10",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search09",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search08",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search07",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search06",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search05",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search04",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search03",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search02",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_search01",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search10",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search09",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search08",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search07",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search06",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search05",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search04",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search03",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search02",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "simple_search01",
+          "assertions": 1,
+          "status": "PASSED"
+        }
+      ]
+    },
+    {
+      "name": "base_invalid_args",
+      "passed": 17,
+      "failed": 0,
+      "errored": 0,
+      "skipped": 0,
+      "tests": [
+        {
+          "name": "wildcard_invalid02",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "wildcard_invalid01",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "s_argument_missing03",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "s_argument_missing02",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "s_argument_missing01",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "r_argument_missing03",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "r_argument_missing02",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "r_argument_missing01",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "output_file_unwritable02",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "output_file_unwritable01",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "l_argument_invalid04",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "l_argument_invalid03",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "l_argument_invalid02",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "l_argument_invalid01",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "input_file_missing",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "duplicate_argument01",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "args_missing01",
+          "assertions": 1,
+          "status": "PASSED"
+        }
+      ]
+    }
+  ]
+}
