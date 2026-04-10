@@ -89,7 +89,7 @@ Test(student_tests, doc_case07) {
 //no arguments
 Test(student_tests, doc_case08) {
     char *test_name = "st_doc_case08";
-    sprintf(args, "");
+    args[0] = '\0';
     int status = run_using_system_no_valgrind(test_name, args);
     expect_error_exit(status, MISSING_ARGUMENT);
 }

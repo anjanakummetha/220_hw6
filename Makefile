@@ -35,24 +35,24 @@ TEST_RESULTS := "test_results.json"
 
 MAKEFLAGS := -j
 
-all: setup $(BIND)/$(TEST) $(BIND)/$(EXEC) 
+all: setup $(BIND)/$(TEST) $(BIND)/$(EXEC)
 
-debug: CFLAGS += $(DFLAGS) $(PRINT_STATEMENTS) 
+debug: CFLAGS += $(DFLAGS) $(PRINT_STATEMENTS)
 debug: all
 
-setup: 
+setup:
 	@mkdir -p $(BIND)
 	@mkdir -p $(BLDD)
 	@mkdir -p $(TSTD).in
 	@mkdir -p $(TSTD).out
-	
+  
 $(BIND)/$(TEST): $(ALL_OBJF) $(TEST_OBJ)
 	$(CC) $(FUNC_FILES) $(TEST_OBJ) $(INCD) $(TEST_LIB) $(LIBD) -o $@ $(LIBS)
 
 $(BLDD)/%.o: $(TSTD)/%.c
 	$(CC) $(CFLAGS) $(INCD) -c -o $@ $<
 
-$(BLDD)/%.o: $(SRCD)/%.c 
+$(BLDD)/%.o: $(SRCD)/%.c
 	$(CC) $(CFLAGS) $(INCD) -c -o $@ $<
 
 $(BIND)/$(EXEC): $(ALL_OBJF)
@@ -60,7 +60,7 @@ $(BIND)/$(EXEC): $(ALL_OBJF)
 
 cpdate_tests:
 
-test: 
+test:
 	@rm -fr $(TSTD).in
 	@mkdir -p $(TSTD).in
 	@rm -fr $(TSTD).out
